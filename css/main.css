@@ -549,6 +549,18 @@ section.columns {
 
 .portfolio-item {
     margin-bottom: 40px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    display: none;
+}
+
+.portfolio-item:hover .overlay {
+    display: inline;
 }
 
 .portfolio-item p {
